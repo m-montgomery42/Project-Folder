@@ -1,4 +1,4 @@
-let employeeName = "John Doe"
+let employeeName = "Name of Employee"
 const employeeID = 12345
 var isActive = true
 console.log("Employee Name:", employeeName, "Type:", typeof employeeName)
