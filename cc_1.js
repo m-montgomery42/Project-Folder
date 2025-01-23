@@ -41,3 +41,10 @@ console.log("Updated balance after interest (*1.1):", accountBalance);
 // Perform basic arithmetic operations (+, -, *, /) and log the updated values. (Division) Represents fee.
 accountBalance = accountBalance / 2;
 console.log("Updated balance after division (/2):", accountBalance);
+
+// Task 4 - String Data Type
+// Declare a variable for customerName using let and assign it a string value representing the customer's name.
+let customerName = "Johnny Appleseed";
+// Concenate strings to form a welcome message and log it to the console.
+let welcomeMessage = "Welcome," + customerName + "We're glad to have you here.";
+console.log(welcomeMessage);
