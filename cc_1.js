@@ -46,5 +46,18 @@ console.log("Updated balance after division (/2):", accountBalance);
 // Declare a variable for customerName using let and assign it a string value representing the customer's name.
 let customerName = "Johnny Appleseed";
 // Concenate strings to form a welcome message and log it to the console.
-let welcomeMessage = "Welcome," + customerName + "We're glad to have you here.";
+let welcomeMessage = "Welcome," + customerName + "! We're glad to have you here.";
 console.log(welcomeMessage);
+
+// Task 5 - Boolean Data Type
+// Declare a variable isLoggedIn using let and assign it a boolean value indicating user login status.
+let isLoggedIn = true;
+// Use logical operations to check access conditions and log results to the console.
+let hasAdminPrivileges = false;
+if (isLoggedIn & hasAdminPrivileges) {
+    console.log("Access granted: You have admin privileges.");
+} else if (isLoggedIn && !hasAdminPrivileges) {
+    console.log("Access granted: You are logged in as a regular user.");
+} else {
+    console.log("Access denied: Please log in.");
+}
