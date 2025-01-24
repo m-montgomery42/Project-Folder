@@ -20,20 +20,20 @@ let average = total / scores.length;
 console.log("Updated scores:", scores);
 console.log("Average score:", average);
 
-// Task 3 - Working with Objects
-// Declare an object employee with properties: name, age, department, and isActive.
+// Task 3 - Working with Objects.
+// Declare an object employee with properties: name, age, department, and isActive
 let employee = {
     name: 'Johnny Appleseed',
     age: 30,
     department: 'Marketing',
     isActive: true
-};
-// Update the department property.
-employee.department = 'Sales';
-// Add a new property position to the object.
-employee.position = 'Manager';
-// Log the updated object to the console.
-console.log(employee);
+}
+// Update the department property
+employee.department = 'Sales'
+// Add a new property position to the object
+employee.position = 'Manager'
+// Log the updated object to the console
+console.log(employee)
 
 // Task 4 - Array of Objects
 // Declare an array customers containing at least three objects,each with name, email, and purchaseAmount properties.
