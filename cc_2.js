@@ -7,3 +7,15 @@ products.push('Speaker');
 products.pop();
 // Log the updated list to the console.
 console.log(products);
+
+// Task 2 - Accessing and Modifying Arrays
+// Declare an array scores with at least five numerical values.
+let scores = [85, 90, 68, 72, 98];
+// Update the second score in the array.
+scores[1] = 95;
+// Calculate the average of all scores.
+let total = scores.reduce((sum, score) => sum + score, 0);
+let average = total / scores.length;
+// Log the updated array and the average score to the console.
+console.log("Updated scores:", scores);
+console.log("Average score:", average);
