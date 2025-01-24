@@ -34,3 +34,16 @@ employee.department = 'Sales';
 employee.position = 'Manager';
 // Log the updated object to the console.
 console.log(employee);
+
+// Task 4 - Array of Objects
+// Declare an array customers containing at least three objects,each with name, email, and purchaseAmount properties.
+let customers = [
+    { name: 'Alice', email: 'alice@abc.com', purchaseAmount: 150 },
+    { name: 'Bobby', email: 'bobby@abc.com', purchaseAmount: 200 },
+    { name: 'Charles', email: 'charles@abc.com', purchaseAmount: 120 },
+];
+// Add a new customer object to the array.
+customers.push({ name: 'David', email: 'david@abc.com', purchaseAmount: 250 });
+// Log the entire customer list to the console.
+console.log(customers);
+
